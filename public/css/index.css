@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{
+    width: 100%;
+    height: 37px;
+    background-color: #262626;
+}
+.top div a{
+    color: #bfbfbf;
+}
+
+.top>div{
+    width: 800px;
+    height: 100%;
+    color: #bfbfbf;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.top .top-left{
+    float: left;
+}
+.top .top-right{
+    float: right;
+}
+.top .top-right a:hover{
+    color: #Fff;
+}
+.top ul li{
+    float: left;
+    line-height: 37px;
+    padding:0 5px;
+
+}
+/* 给左边li去除左边距 */
+ .top-left ul li:first-child{
+    padding-left: 0;
+ }
+/* 给右边li加背景色 */
+ .top-right ul li:last-child{
+    background-color: #343434;
+ }
+.two{
+width: 800px;
+height: 80px;
+margin: 0 auto;
+/* background-color: black; */
+}
+.two div{
+float: left;
+}
+.two-left img{
+float: left;
+ margin-top: 17px;
+}
+.two-left p{
+float: left;
+line-height: 80px;
+font-size: 25px;
+margin-left: 10px;
+}
+.two-right{
+margin-left: 50px;
+}
+.two-right ul li{
+float: left;
+line-height: 80px;
+margin: 0 10px;
+}
+.two-right a:hover{
+    color: #8c8c8c;
+}
+.three {
+width: 100%;
+height: 445px;
+text-align: center;
+background-color: #1e1e22;
+}
+.three img{
+width: 800px;
+height: 445px;
+}
+.four{
+width: 800px;
+height:500px;
+margin: 0 auto;
+}
+.four,.five .item-top{
+line-height:60px;
+height: 60px;
+}
+.four .item-img img:first-child{
+width:390px;
+float: left;
+
+}
+.four .item-img img:last-child{
+width:390px;
+float: right;
+
+}
+.font1{
+font-size: 20px;
+}
+.font2{
+color: #8c8c8c; 
+}
+.font2-left{
+padding-left: 30px;
+}
+/* 第五航 */
+.five{
+width: 800px;
+height:500px;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+.five .item-top div:first-child{
+float: left;
+}
+.five .item-top div:last-child{
+float: right;
+}
+/* 清除浮动 */
+.clearboth::before,
+.clearboth::after{
+content: "";
+display: table;
+}
+.clearboth::after{
+clear: both;
+}
+
+.five-box{
+width: 100%;
+height: 280px;
+/* margin-bottom: 20px;    */
+}
+.five-box ul li{
+width: 192.5px;
+height: 280px;
+background-color: #ffffff;
+float: left;
+margin-right: 10px;
+text-align: center;
+}
+.five-box ul li:last-child{
+margin-right: 0;
+}
+
+.five-box ul li img{
+width: 190px;
+height: 190px;
+}
+.five-box ul li .price{
+color: red;
+}
+.five-box ul li p{
+padding: 2px 2px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.five-box ul li p:last-child{
+margin-top: 5px;
+}
+.font3{
+font-size: 14px;
+}
+.font4{
+font-size: 10px;
+}
+/* 第六行 */
+.six{
+width: 800px;
+margin: 0 auto;
+}
+.six img{
+width: 100%;
+margin-top: 10px;
+}
+.boxbig{
+width: 100%;
+background-color: #f5f5f5;
+padding-bottom: 30px;
+}
+.seven{
+width:800px;
+height: 180px;
+border-bottom: 1px solid #e8e8e8;
+margin: 0 auto;
+}
+.seven>div{
+margin-top: 20px;
+float: left;
+
+}
+.seven-left>div:first-child{
+text-align: center;
+}
+.seven-item1 dl{
+margin-top: 10px;
+float: left;
+font-size: 12px;
+text-align:  center;
+padding: 0 5px;
+}
+.seven-item1 dl img{
+width: 65px;
+height: 65px;
+}
+.seven-center{
+padding: 0px 10px;
+text-align: center;
+border-left: 1px solid #e8e8e8;
+border-right: 1px solid #e8e8e8;
+}
+.seven-center>p:first-child{
+text-align: center;
+}
+.seven-item2 li{
+float: left;
+margin: 0 10px;
+margin-top: 10px;
+}
+.seven-item2 li:last-child{
+float:right;
+}
+.seven-item2 li img{
+width:80px;
+height: 80px;
+}
+.sr-top{
+width:100%;
+height: 80px;
+}
+.sr-top ul li{
+float: left;
+text-align: center;
+font-size: 12px;
+margin-left: 5px;
+}
+.sr-top ul li:last-child{
+float: right;
+margin-right: 5px;
+}
+.sr-top ul li img{
+width: 50px;
+height: 45px;
+}
+.sr-bottom{
+text-align: center;
+font-size: 12px;
+}
+.sr-bottom>p{
+line-height: 20px;
+}
+.sr-bottom>p:nth-child(2){
+color:red;
+}
+.eight {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+  
+
+}
+
+.eight ul li{
+   float: left;
+   text-align: center;
+   font-size: 12px;
+   margin: 0 15px;
+}
+.nine{
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 12px;
+}
+.dingwei{
+    position: fixed;
+    top: 450px;
+    right: 0px;
+}
+.dingwei img{
+    width: 60px;
+    height: 60px;
+}

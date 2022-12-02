@@ -1,0 +1,49 @@
+div{
+    margin-bottom: 30px;
+    text-align: center;
+    
+   }
+    #top{
+        height: 100px;
+        line-height: 100px;
+        border-bottom: 2px solid #6e6464;
+        /* background-color: aqua; */
+    }
+    #top img{
+        vertical-align: middle;
+    }
+    a{
+        text-decoration: none;
+    }
+    .larger{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .color1{
+        color: red;
+    }
+    .color2{
+        color: #cccccc;
+    }
+    .phone{
+        height: 40px;
+        color: #aba3a3;
+        width: 85px;
+    }
+
+    #md div{
+        
+        margin:30px auto;
+    }
+    ul li{
+        width:30%;
+        list-style: none;
+        float: left;
+        font-size: 10px;
+        height: 30px;
+        line-height: 30px;
+        /* text-align: left; */
+    }
+    .bottom img{
+               vertical-align: middle;
+    }
